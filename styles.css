@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: red;
+}
+.cart {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.top-section {
+    background: linear-gradient(to right, black 50%, red 50%);
+    text-align: center;
+    padding: 150px 20px 100px;
+    margin-top: 80px;
+}
+.top-section h1, .top-section h2 {
+    margin: 10px 0;
+}
+.top-section button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.middle-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #111;
+}
+.middle-section h1, .middle-section h2 {
+    margin: 10px 0;
+}
+.middle-section button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+footer h3 {
+    margin-bottom: 10px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li a {
+    text-decoration: none;
+    color: gray;
+}
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
